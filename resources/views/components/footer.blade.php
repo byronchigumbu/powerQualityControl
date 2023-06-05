@@ -8,7 +8,7 @@
                     Copyright &copy; 2022, All Rights Reserved
                 </div>
                 <div>
-                    <img src="img/logo.jpg" alt="" class="h-8 w-36">
+                    <img src="img/logo.png" alt="" class="h-8 w-36">
                 </div>
                 <!-- Social Links Container -->
                 <div class="flex justify-center space-x-4">

@@ -26,16 +26,16 @@
 <!-- Graphs  -->
 <section class="mx-auto p-1 pl-5">
     <div class="flex items-center pl-11">
-        <div class="pr-6 w-3/4 md:w-6/12">
-            <div class="mx-auto overflow-hidden">
-                <livewire:pie-chart-graph />
-            </div>
-        </div>
+{{--        <div class="pr-6 w-3/4 md:w-6/12">--}}
+{{--            <div class="mx-auto overflow-hidden">--}}
+{{--                <livewire:pie-chart-graph />--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <div class="hidden md:flex h-[350px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-20 dark:opacity-100"></div>
+{{--        <div class="hidden md:flex h-[350px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-20 dark:opacity-100"></div>--}}
 
-        <div class="pl-8 pb-4 w-6/12">
-            <div class="mx-auto ">
+        <div class=" md:block pl-8 pb-4">
+            <div>
                 <livewire:line-chart-graph />
             </div>
         </div>
