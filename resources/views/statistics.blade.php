@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Landing Page</title>
+    <title>PMS</title>
     @vite(['resources/css/app.css','resources/js/app.js'])
     @livewireStyles
     @livewireScripts
@@ -25,7 +25,7 @@
 
 <!-- Graphs  -->
 <section class="mx-auto container p-1 pl-5">
-    <div>
+    <div class="text-center">
         <p class="text-2xl">
             CURRENT
         </p>
@@ -40,7 +40,7 @@
 </section>
 
 <section class="mx-auto container p-1 pl-5">
-    <div>
+    <div class="text-center">
         <p class="text-2xl">
             VOLTAGE
         </p>
@@ -55,7 +55,7 @@
 </section>
 
 <section class="mx-auto container p-1 pl-5">
-    <div>
+    <div class="text-center">
         <p class="text-2xl">
             FREQUENCY
         </p>
@@ -78,7 +78,7 @@
     <div class="flex items-center pl-11">
         <div class=" md:block pl-8  md:w-11/12">
             <div>
-                <livewire:line-chart-harmonics />
+{{--                <livewire:line-chart-harmonics />--}}
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
             Event Logs
         </p>
     </div>
-    <livewire:event-logs />
+{{--    <livewire:event-logs />--}}
 
 </section>
 

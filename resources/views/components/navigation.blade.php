@@ -9,7 +9,7 @@
             </div>
             <!-- Menu Items -->
             <div class="hidden md:flex space-x-12">
-                <a href="{{ route('home') }}" class="hover:text-darkGrayishBlue text-2xl font-mono italic">Welcome To Power Quality Monitoring System!</a>
+                <a href="{{ route('home') }}" class="hover:text-darkGrayishBlue text-2xl font-mono italic">Welcome,  Power Quality Monitoring System!</a>
             </div>
             <!-- Button -->
 {{--            <a href="#" class="hidden md:flex p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">--}}

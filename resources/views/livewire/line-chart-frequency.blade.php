@@ -1,6 +1,3 @@
-<div>
-    {{-- The whole world belongs to you. --}}
-</div>
 <div wire:poll.3000ms>
     <!-- HTML -->
     <div id="frequencydiv"></div>

@@ -13,7 +13,7 @@
     <script>
 
 
-        window.addEventListener('update-line', event => {
+        window.addEventListener('update-voltage', event => {
 
             am5.ready(function() {
                 am5.array.each(am5.registry.rootElements, function (root) {
