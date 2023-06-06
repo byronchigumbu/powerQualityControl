@@ -1,6 +1,6 @@
 <div>
     <!-- It is not the man who has too little, but the man who craves more, that is poor. - Seneca -->
-    <nav class="relative container mx-auto p-6 bg-slate-300 rounded-lg">
+    <nav class="relative container mx-auto p-6 bg-slate-50 rounded-lg">
         <!-- Flex container -->
         <div class="flex items-center justify-between ">
             <!-- Logo -->
@@ -9,12 +9,12 @@
             </div>
             <!-- Menu Items -->
             <div class="hidden md:flex space-x-12">
-                <a href="{{ route('home') }}" class="hover:text-darkGrayishBlue text-2xl font-mono italic">Welcome To Power Quality Control Monitoring System!</a>
+                <a href="{{ route('home') }}" class="hover:text-darkGrayishBlue text-2xl font-mono italic">Welcome To Power Quality Monitoring System!</a>
             </div>
             <!-- Button -->
-            <a href="#" class="hidden md:flex p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
-                Hello, Admin
-            </a>
+{{--            <a href="#" class="hidden md:flex p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">--}}
+{{--                Hello, Admin--}}
+{{--            </a>--}}
             <!-- Hamburger Icom -->
             <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
