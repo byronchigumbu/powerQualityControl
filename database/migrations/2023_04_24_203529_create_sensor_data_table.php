@@ -13,8 +13,10 @@ return new class extends Migration
     {
         Schema::create('sensor_data', function (Blueprint $table) {
             $table->id();
-            $table->unsignedDouble('dust');
-            $table->unsignedDouble('gas');
+            $table->unsignedDouble('current')->default(0.00);
+            $table->unsignedDouble('voltage')->default(0.00);
+            $table->unsignedDouble('frequency')->default(0.00);
+            $table->unsignedDouble('harmonics')->default(0.00);
             $table->timestamp('time')->nullable();
             $table->timestamps();
         });
