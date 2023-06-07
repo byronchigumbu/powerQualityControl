@@ -70,7 +70,7 @@
 </section>
 
 <section class="mx-auto container p-1 pl-5">
-    <div class="center">
+    <div class="text-center">
         <p class="text-2xl">
             HARMONICS
         </p>
@@ -78,7 +78,7 @@
     <div class="flex items-center pl-11">
         <div class=" md:block pl-8  md:w-11/12">
             <div>
-{{--                <livewire:line-chart-harmonics />--}}
+                <livewire:line-chart-harmonics />
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
             Event Logs
         </p>
     </div>
-{{--    <livewire:event-logs />--}}
+    <livewire:event-logs />
 
 </section>
 

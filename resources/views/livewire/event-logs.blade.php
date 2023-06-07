@@ -26,10 +26,10 @@
                             @else
                                 <tr class="border-b border-danger-200 bg-danger-100 text-neutral-800">
                                     <td class="whitespace-nowrap px-6 py-4 font-medium">
-                                        {{ $user->name . " " . $user->surname }}
+                                        {{ $event->name . " " . $event->surname }}
                                     </td>
-                                    <td class="whitespace-nowrap px-6 py-4">{{$user->department}}</td>
-                                    <td class="whitespace-nowrap px-6 py-4">{{$user->time}}</td>
+                                    <td class="whitespace-nowrap px-6 py-4">{{$event->description}}</td>
+                                    <td class="whitespace-nowrap px-6 py-4">{{$event->time}}</td>
 {{--                                    <td class="whitespace-nowrap px-6 py-4">{{ $user->is_sobber != 1 ? 'Drunk' : 'Sober' }}</td>--}}
                                 </tr>
                             @endif
